@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+   
+   
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big_square{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.8s;
+
+}
+
+
+.square {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    transition: 1s;
+}
+
+.big_square:hover .square{
+    transform: rotate(90deg);
+    background-color: brown;
+}
